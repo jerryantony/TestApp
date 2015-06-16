@@ -12,6 +12,9 @@ using WebApplication4.Models;
 
 namespace WebApplication4.Controllers
 {
+    /// <summary>
+    /// Authorization
+    /// </summary>
     [Authorize]
     public class AccountController : Controller
     {
